@@ -1,0 +1,25 @@
+.search-bar {
+  width: 250px;
+  height: 30px;
+  background-color: #e9e9e9;
+  border-radius: 4px;
+  margin-top: 200px;
+
+  margin: 50px auto;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.search-bar input {
+  outline: none;
+  border: none;
+  background-color: #e9e9e9;
+  border-radius: 4px;
+  padding: 1rem;
+}
+
+.search-bar img {
+  width: 20px;
+  margin-right: 16px;
+}
