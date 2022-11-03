@@ -1,6 +1,12 @@
 import React from "react";
 import Header from "../../components/Header";
 
+import { 
+  Ampligram 
+} from './ui-components';
+
+<Ampligram />
+
 // Assets
 import searchIcon from "./../../assets/icons/search.svg";
 
@@ -20,9 +26,23 @@ const Home = () => {
         <img src={searchIcon} alt="" />
       </div>
 
-      <div className="pokemon-list"></div>
+      <div className="pokemon-list">
+      <div>
+      <ActionCardWithSlot
+      {/*Add content to the mainText prop*/}
+        mainText={
+          <div>
+            <h2>Fancy Hat</h2>
+            <p>A hat with a very nice feather</p>
+          </div>
+        }
+      />
+    </div>
+      </div>
     </div>
   );
 };
+
+
 
 export default Home;
