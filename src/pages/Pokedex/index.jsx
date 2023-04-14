@@ -28,7 +28,7 @@ const Pokedex = (props) => {
 
   const getPokemon = () => {
     var endPoints = [];
-    for (var i = 1; i < 15; i++) {
+    for (var i = 1; i < 151; i++) {
       endPoints.push(`https://pokeapi.co/api/v2/pokemon/${i}`);
     }
     var response = axios
